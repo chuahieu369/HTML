@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tạo form đơn giản</title>     
+    <style>
+        div.a{
+            text-align:center
+        }
+        div.b{
+            color:rgb(255, 81, 0) 
+        }
+        div.l{
+            text-align: top;
+        }
+        .font{
+                    font-family: "arial";
+                }
+    </style>
+</head>
+<body>
+    <form method="get" action="simform.html" class="font">
+        <fieldset style="background-color:rgb(172, 254, 227)"> 
+  
+        <fieldset  style="background-color:rgb(254, 254, 254)">
+           
+            <div class="a">
+              <h1  style="background-color:rgb(255, 77, 0) "><span style="color:white">SỞ THÍCH CỦA BẠN</span></h1>
+            </div>
+           
+             <p style="color:blue ">Họ và tên  <input name="yourname"></p>
+            <p style="color:blue ">
+               Email  <input name="email" type="email">
+            </p>
+            <p style="color:blue ">Sở thích</p>
+            <div class="b">   
+               <input name="hobby" type="checkbox">Thể thao
+               <input name="hobby" type="checkbox">Âm nhạc
+               <input name="hobby" type="checkbox">Đọc sách<br>
+               <input name="hobby" type="checkbox">Lướt web
+               <input name="hobby" type="checkbox">Chơi game
+               <input name="hobby" type="checkbox">Điện ảnh<br>
+               <input name="hobby" type="checkbox">Du lịch              
+            </div>
+           <button name="submit form" value="submit" style="color:darkgrey"><span style="color:black">Gửi thông tin</span></button>
+           <button name="reset form" value="reset" style="color:darkgrey"><span style="color:black">Nhập lại</span></button>
+           
+        </fieldset>     
+    
+   </fieldset><br><br><br>
+   <fieldset style="background-color:rgb(241, 253, 130)"> 
+     
+        
+        <h1 style="background-color:rgb(184, 249, 250)"><span style="color:blue">ĐĂNG KÝ HỌC VIÊN</span></h1>
+        
+        <p style="color:blue ">Họ và tên <input name="name"></p>
+        <p style="color:blue ">Ngày sinh <input name="birth"></p>
+        <p style="color:blue ">Giới tính</p><input type="radio" name="gender">Nam <input type="radio" name="gender">Nữ
+        <p style="color:blue ">Địa chỉ <br><textarea name="address" cols="100" row="10"></textarea></p>
+        <p style="color:blue ">lớp</p>
+            <select name="class">
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+            </select>
+        <p style="color:blue ">Email <input name="email"></p>
+        <p style="color:blue ">Điện thoại <input name="phone"></p>
+             
+           <button name="submit form2" value="submit" style="color:darkgrey"><span style="color:black">Gửi thông tin</span></button>
+           <button name="reset form2" value="reset" style="color:darkgrey"><span style="color:black">Nhập lại</span></button>
+           
+         
+    
+    </fieldset>  
+   </form>
+</body>
+</html>
